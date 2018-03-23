@@ -3,14 +3,14 @@
        into the "camera" namespace, and it is prepended to tf frame ids. -->
   <arg name="camera"      default="camera"/>
   <arg name="publish_tf"  default="false"/>
-  <arg name="3d_sensor"   default="$(env TURTLEBOT_3D_SENSOR)"/>  <!-- kinect, asus_xtion_pro, astra -->
+  <arg name="3d_sensor"   default="astra"/>  <!-- kinect, asus_xtion_pro, astra -->
 
   <arg name="device_1_prefix"   default="01"/>
   <arg name="device_2_prefix"   default="02"/>
   <arg name="device_3_prefix"   default="03"/>
-  <arg name="device_1_id"   default="16052710104"/>
-  <arg name="device_2_id"   default="16060300001"/>
-  <arg name="device_3_id"   default="16042200004"/>
+  <arg name="device_1_id"   default="16030310030"/>
+  <arg name="device_2_id"   default="16060310092"/>
+  <arg name="device_3_id"   default="17010710190"/>
 
   <!-- Factory-calibrated depth registration -->
   <arg name="depth_registration"              default="false"/>
